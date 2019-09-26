@@ -1,0 +1,22 @@
+.zui-table {
+    border: solid 1px #8D250B;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: 200% font-family: 'Manjari', sans-serif;
+    margin-top: 20px;
+    max-width: 1300px;
+    width: 1300px;
+}
+.zui-table thead th {
+    background-color: #8D250B;
+    border: solid 1px #8D250B;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.zui-table tbody td {
+    border: solid 1px #8D250B;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}

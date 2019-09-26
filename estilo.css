@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+body {
+	font-family: 'Manjari', sans-serif;	
+}
+
+#container {
+	margin: 5px;
+	padding: 25px;
+}
+
+/*h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 20px;
+	padding: 1px;
+}
+
+
+.bt button {
+	padding: 150px;	 
+	border-radius: 5px;	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	font-weight: bold;	
+	text-shadow: 0 1px 0 #666;
+	cursor: pointer;
+	position: relative;
+	color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.bt {
+	font-size: 18px;
+	padding: 15px;
+	display: block;
+	margin-left: auto;
+	position: relative;
+    width: 10em;
+}
+
+#inp {
+	padding: 5px;
+	margin: 10px;
+	text-decoration: none;
+	width: 250px;
+}
+
+*/
+
+
+.form-style-6{
+	font: 30px font-family: 'Manjari', sans-serif;	
+	max-width: 1800px;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #8D250B;
+	padding: 20px 0;
+	font-size: 200%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -26px -26px 26px -26px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 300px;
+	max-height: 100px;
+	background: #fff;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;	
+	color: #555;
+	font: 30px font-family: 'Manjari', sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #8D250B;
+	padding: 5px;
+	border: 1px solid #8D250B;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 150px;
+	height: 60px;
+	margin-top: 10px;
+	background: #8D250B;
+	border-bottom: 2px solid #8D250B;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+	font: 200% font-family: 'Manjari', sans-serif;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #A62B0C;
+}
+
+label {
+  display: block;
+  padding: 10px;
+}
+
+label {
+  text-align: left;
+
+}
+input {
+  display: inline-block;
+  padding-left: 10px;
+  margin-left: 10px;
+  	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 150px;
+	height: 60px;
+	margin-top: 10px;
+	background: #8D250B;
+	border-bottom: 2px solid #8D250B;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+	font: 200% font-family: 'Manjari', sans-serif;
+}
+
